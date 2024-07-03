@@ -1,0 +1,21 @@
+[
+    {
+        "customerID": 1,
+        "recency": 5,
+        "frequency": 10,
+        "monetary": 500
+    },
+    {
+        "customerID": 2,
+        "recency": 3,
+        "frequency": 7,
+        "monetary": 300
+    },
+    {
+        "customerID": 3,
+        "recency": 15,
+        "frequency": 2,
+        "monetary": 100
+    }
+]
+

@@ -1,0 +1,494 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+}
+
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header__image {
+    display: flex;
+    z-index: 1;
+    width: 636px;
+    height: 720px;
+    position: absolute;
+    top: 110px;
+    right: 5px;
+  }
+
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+NO 
+
+.page {
+    font-family: Arial, "sans-serif";
+    margin: 0 auto;
+    min-width: 1100px;
+    max-width: 1600px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nav__logo {
+    width: 58px;
+    height: 80px;
+  }
+  
+  .nav__links {
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  
+  .nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .header__title {
+    margin-top: 128px;
+    max-width: 635px;
+    margin-left: 0;
+    font-size: 62px;
+    line-height: 76px;
+    font-weight: 500;
+  }
+  
+  .header__description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+    max-width: 515px;
+    margin-left: 0;
+  }
+  
+  .header__image {
+    max-width: 636px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .header__footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  
+  .header__link {
+    color: #2f80ed;
+    text-decoration: none;
+  }
+  
+  .header__address {
+    margin: 0;
+    color: #838383;
+  }
+  
+  .staff {
+    background-image: url("../images/staff_picks_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 140px;
+  }
+  
+  .staff__title {
+    text-align: center;
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 400;
+    margin: 0 0 24px;
+    color: #ffffff;
+  }
+  
+  .staff__subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .staff__cards {
+    max-width: 760px;
+    margin: 68px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 32px 40px 20px 32px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 420px;
+  }
+  
+  .card__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card__title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .card__text {
+    margin: 20px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .card__footer {
+    font-size: 14px;
+    line-height: 20px;
+    color: #838383;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  
+  
+  .events {
+    padding: 100px 0 120px 80px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+  }
+  
+  .events__content {
+    flex-basis: 580px;
+  }
+  
+  .events__heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+  }
+  
+  .events__title {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    margin: 32px 0 0;
+  }
+  
+  .events__info-section {
+    margin-top: 32px;
+  }
+  
+  .event-info__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  .event-info__icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .event-info__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+  }
+  
+  .events__description {
+    margin: 40px 0 60px;
+  }
+  
+  .events__more {
+    color: #132947;
+    text-decoration: none;
+  }
+  
+  .events__cover {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 780px;
+    max-width: 780px;
+    position: relative; 
+  }
+  
+  .events__image {
+     max-width: 100%; 
+  }
+  
+  
+  .person {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .person_name_feynman {
+    top: -30px;
+    left: 319px;
+  }
+  
+  .person_name_burbidge {
+    top: 96px;
+    right: 125px;
+  }
+  
+  .person_name_cannon {
+    bottom: 18px;
+    right: 216px;
+  }
+  
+  .person_name_mitchell {
+    bottom: 82px;
+    left: 142px;
+  }
+  
+  .person_name_tarter {
+    top: 79px;
+    left: 159px;
+  }
+  
+  .person__image {
+    max-width: 100%; 
+  }
+  
+  .person__image_size_l {
+     width: 140px; 
+  }
+  
+  .person__image_size_m {
+    width: 100px; 
+  }
+  
+  .person__image_size_s {
+    width: 80px; 
+  }
+  
+  .person__caption {
+     text-align: center;
+     font-size: 14px;
+     margin: 0; 
+  }
+  
+  .membership {
+    padding: 100px 0 140px;
+    background-color: #057bf2;
+    color: #ffffff;
+  }
+  
+  .membership__title {
+    max-width: 574px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+  }
+  
+  .membership__steps {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 100px 0 0;
+    gap: 40px;
+   
+  }
+  
+  .step {
+    flex-basis: 220px; 
+  }
+  
+  .step__title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .step__icon {
+    margin-left: 20px;
+  }
+  
+  .step__description {
+    margin: 10px 0 0 0;
+  }
+  
+  .footer {
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 60px 80px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .footer__columns {
+    display: flex;
+  }
+  
+  .footer__column {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer__column_content_hours {
+    margin-left: auto;
+  }
+  
+  .footer__column_content_social {
+  margin-left: 80px;
+  }
+  
+  
+  .footer__logo {
+    width: 58px ;
+    height: 80px;
+  }
+  
+  .footer__column-heading {
+    margin: 0px 0px 20px 0px;
+  }
+  
+  .footer__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__list-item {
+    list-style-type: none;
+    margin-bottom: 16px;
+  
+  }
+  
+  .footer__column-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    column-gap: 10px;
+  }
+  
+  .footer__social-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+  .footer__copyright {
+    margin: 100px 0 0 0;
+  }
+  
