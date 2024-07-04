@@ -1,10 +1,16 @@
 
 .person{
   text-align: center;
-  font-size: 70px;
+  font-size: 16px;
+  line-height: 16px;
   color: rgb(0, 0, 0);
   font-weight: bold;
   margin-top: 200px;
+}
+
+.person__title {
+  font-size: 4em;
+  line-height: 2em;
 }
 
 .person__social{
@@ -151,5 +157,8 @@
   background-image: url("../images/img2_equipo_eduardo.png");
 }
 
-
-
+@media screen and (max-width: 768px) {
+  .person {
+    font-size: 10px;
+  }
+}
