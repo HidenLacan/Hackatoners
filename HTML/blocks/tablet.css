@@ -1,0 +1,104 @@
+
+
+/* Tablet */
+
+@media screen and (max-width: 768px){
+    .header{
+        margin: 0 auto;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+    .logo{
+        width: 254px;
+        height: 66px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        padding-top: 30px;
+        max-width: 530px;
+        max-height: 158px;
+        font-size: 75px;
+        line-height: 79px;
+    }
+    .subtitle{
+        padding-top: 25px;
+        padding-bottom: 30px;
+        max-width: 720px;
+        max-height: 72px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .image{
+        max-width: 768px;
+        max-height: 480px;
+        margin-bottom: 0;
+    }
+
+    .intro__title{
+      font-family: "Inter-bold", "Inter-black", "Inter";
+        margin-top: 0;
+        max-width: 707px;
+        max-height: 100%;
+        font-size: 45px;
+        line-height: 49px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .quote{
+        max-width: 720px;
+        max-height: 100%;
+        font-size: 24px;
+        line-height: 34px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .author{
+        padding-top: 0;
+        max-width: 720px;
+        max-height: 100%;
+        font-size: 24px;
+        line-height: 34px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .paragraph{
+      font-family: "Inter";
+        padding-top: 32px;
+        width: 720px;
+        height: 182px;
+        max-width: 720px;
+        max-height: 100%;
+        font-size: 16px;
+        line-height: 163%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 88px;
+        padding-bottom: 24px;
+        max-width: 194px;
+        max-height: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

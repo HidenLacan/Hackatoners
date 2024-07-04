@@ -1,0 +1,20 @@
+
+.results__title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+    margin-bottom: 10px;
+  }
+
+  .results__subtitle{
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+  }

@@ -1,0 +1,155 @@
+
+.person{
+  text-align: center;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+.person__social{
+    list-style: none;
+    font-size: 20px;
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+/* Denise */
+
+.person__denise{
+  padding-bottom: 20px;
+}
+
+.person__image_denise{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_denise.png");
+  background-size: cover;
+}
+
+.person__image_denise:hover{
+  background-image: url("../images/img2_equipo_denise.png");
+ 
+}
+
+/* Cecilia */
+
+.person__cecilia{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_cecilia{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_cecilia.png");
+  background-size: cover;
+}
+
+.person__image_cecilia:hover{
+  background-image: url("../images/img2_equipo_cecilia.png"); 
+}
+
+/* Luis */
+
+.person__luis{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_luis{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_luis.png");
+  background-size: cover;
+}
+
+.person__image_luis:hover{
+  background-image: url("../images/img2_equipo_luis.png"); 
+}
+
+/* Emanuel */ 
+
+.person__emanuel{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_emanuel{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_emanuel.png");
+  background-size: cover;
+}
+
+.person__image_emanuel:hover {
+  background-image: url("../images/img2_equipo_Emmanuel.png"); 
+}
+
+/* José */
+
+.person__jose{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_jose{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_jose.png");
+  background-size: cover;
+}
+
+.person__image_jose:hover{
+  background-image: url("../images/img2_equipo_jose.png"); 
+}
+
+/* Santiago */
+
+.person__santiago{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_santiago{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_santiago.png");
+  background-size: cover;
+}
+
+.person__image_santiago:hover{
+  background-image: url("../images/img2_equipo_santiago.png"); 
+}
+
+
+/* Eduardo */
+
+.person__eduardo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.person__image_eduardo{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_eduardo.png");
+  background-size: cover;
+} 
+
+.person__image_eduardo:hover{
+  background-image: url("../images/img2_equipo_eduardo.png");
+}
+
+
+

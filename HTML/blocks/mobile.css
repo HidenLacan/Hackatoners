@@ -1,0 +1,113 @@
+/* Mobile */
+
+@media screen and (max-width: 320px) {
+
+    .header {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      }
+    
+        .logo{
+          padding-top: 20px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 188px;
+          height: 52px;
+          max-height: 100%;
+          padding-bottom: 50px;
+        }
+    
+        .title{
+            font-size: 40px;
+            width: 228px;
+            height: 88px;
+            max-height: 100%;
+            height: 100%;
+            line-height: 44px;
+        }
+    
+        .subtitle{
+            padding-top: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+            max-width: 288px;
+            max-height: 100%;
+            height: 100%;
+            font-size: 16px;
+            line-height: 20px;
+            padding-bottom: 0px;
+        }
+    
+        .image{
+            padding-top: 40px;
+            width: 320px;
+            height: 200px;
+            max-height: 100%;
+            padding-bottom: 0px;
+        }
+    
+        .intro__title{
+            padding-top: 64px;
+            max-width: 288px;
+            max-height: 100%;
+            height: 100%;
+            font-size: 32px;
+            font-family: "Inter-bold", "Inter-black", "Inter";
+            line-height: 35px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 0px;
+        }
+    
+        .quote{
+          margin: 0 auto;
+            padding-top: 40px;
+            width: 288px;
+            height: 300px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 100%;
+            font-size: 24px;
+            line-height: 30px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    
+        .author{
+            padding-top: 10px;
+            height: 100%;
+            width: 288px;
+            height: 34px;
+            font-size: 24px;
+            line-height: 34px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    
+        .paragraph{
+            padding-top: 32px;
+            height: 442px;
+            width: 288px;
+            font-size: 16px;
+            line-height: 163%;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    
+        .footer{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 194px;
+          height: 14px;
+          max-height: 100%;
+          height: 100%;
+          font-size: 14px;
+          line-height: 14px;
+          padding-top: 64px
+        }
+    }

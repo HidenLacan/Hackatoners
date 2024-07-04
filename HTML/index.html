@@ -9,7 +9,7 @@
     <meta name="author" content="Denise, Santiago, Cecilia, Luis," />
     <meta name="keywords" content="Segmentación, clientes, datos" />
     <!-- css -->
-    <link rel="stylesheet" href="../HTML/css/index.css"/>
+    <link rel="stylesheet" href="./css/index.css" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +18,7 @@
     <title>Segmentación de Clientes</title>
   </head>
   <body>
-    <div class="page"> 
+     <div class="page"> 
         <header class="header">
           <img
           src="images/logo.svg"
@@ -28,9 +28,9 @@
             <ul class="nav__links">
               <li><a href="#nosotros" class="nav__link">Nuestra misión</a></li>
               <li>
-              <a href="#clientes" class="nav__link">Segmentación de Clientes</a>
+              <a href="#results" class="nav__link">Resultados</a>
               </li>
-              <li><a href="#about" class="nav__link">¿Quiénes somos?</a></li>
+              <li><a href="#team" class="nav__link">¿Quiénes somos?</a></li>
               <li><a href="#social" class="nav__link">Redes Sociales</a></li>
             </ul>
           </nav>
@@ -38,9 +38,10 @@
           <span class="header__span-accent">Segmentación de Clientes</span>
           Hackathoners </h1>
        </header>
+      </div>
 
-       <main class="content">
-          <section class="nosotros" id="nosotros">
+     <main class="main" id="nosotros">
+        <section class="nosotros" id="nosotros">
             <h2 class="mision__title">Misión</h2>
             <p class="mision__subtitle">
             Nuestra misión es aplicar técnicas avanzadas de análisis de datos
@@ -69,8 +70,8 @@
              allowfullscreen>
             </iframe>
             </div>
-          </section>
-
+         </section>
+    
           <section class="results" id="results">
             <h2 class="results__title">Resultados</h2>
        
@@ -83,52 +84,53 @@
             <p class="results__subtitle"> Descripción de los resultados (aquí va una gráfica)</p>
          </section>
 
-         <section class="about" id="about">
+       <section class="person" id="team">
            <p> Nuestro equipo </p>
 
-           <p class="person__caption">Denise</p>
-           <img
-             src="./images/img_equipo_denise.png"
-             alt="Denise"
-             class="person__image"/>
+          <ul>
+            <div class="person__denise">
+             <li class="person__social">Denise</li>
+             <a href=" https://github.com/denisehanono"/>
+             <div class="person__image_denise"> </div></a>
+            </div>
+
+            <div class="person__cecilia">
+              <li class="person__social">Cecilia</li>
+              <a href=" https://github.com/CECILIAM14"/>
+              <div class="person__image_cecilia"> </div></a>
+            </div>
           
-           <p class="person__caption">Cecilia</p>
-            <img
-             src="./images/img_equipo_cecilia.png"
-             alt="Cecilia"
-            class="person__image"/>  
+            <div class="person__luis">
+              <li class="person__social">Luis</li>
+              <a href=" https://github.com/HidenLacan"/>
+              <div class="person__image_luis"> </div></a>
+            </div>
+   
+            <div class="person__emanuel">
+              <li class="person__social">Emanuel</li>
+              <a href="https://github.com/EmmanuelPNava"/>
+              <div class="person__image_emanuel"> </div></a>
+            </div>
 
-              <p class="person__caption">Luis</p>
-              <img
-                src="./images/img_equipo_luis.png"
-                alt="Luis"
-                class="person__image"/>
+            <div class="person__jose">
+              <li class="person__social">José</li>
+              <a href="https://github.com/JosephFaster"/>
+              <div class="person__image_jose"> </div></a>
+            </div>
 
-              <p class="person__caption">Emanuel</p>
-              <img
-                src="./images/img_equipo_emanuel.png"
-                alt="Emanuel"
-                class="person__image"/>
+            <div class="person__santiago">
+              <li class="person__social">Santiago</li>
+              <a href="https://github.com/santicar1809"/>
+              <div class="person__image_santiago"> </div></a>
+            </div>
 
-                <p class="person__caption">José</p>
-              <img
-                src="./images/img_equipo_jose.png"
-                alt="José"
-                class="person__image"/>
-              
-              <p class="person__caption">Santiago</p>
-              <img
-                src="./images/img_equipo_santiago.png"
-                alt="Santiago"
-                class="person__image "/>
-
-              <p class="person__caption">Eduardo</p>
-              <img
-                src="./images/img_equipo_Eduardo.png"
-                alt="Eduardo"
-                class="person__image"/>
-          </section>
-       </main>
+            <div class="person__eduardo">
+              <li class="person__social">Eduardo</li>
+              <a href="https://github.com/eduardorpu"/>
+              <div class="person__image_eduardo"> </div></a>
+            </div>
+          </ul>
+        </section>
       
         <footer class="footer" id="social">
         <div class="footer__content">
@@ -165,6 +167,7 @@
         </div>
         <p class="footer__copyright"> Copyright &#169; 2024 Hackathoners: Denise, Cecilia, Luis, Emanuel, José, Santiago, Eduardo.</p>
        </footer>
-    </body>
+    </main>
+  </body>
   </page>
 </html>
