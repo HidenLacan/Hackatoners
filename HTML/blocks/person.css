@@ -122,7 +122,7 @@
 
 .person__santiago{
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 .person__image_santiago{
@@ -138,24 +138,6 @@
 }
 
 
-/* Eduardo */
-
-.person__eduardo{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.person__image_eduardo{
-  aspect-ratio: 1/1;
-  max-width: 300px;
-  margin: auto;
-  background-image: url("../images/img_equipo_eduardo.png");
-  background-size: cover;
-} 
-
-.person__image_eduardo:hover{
-  background-image: url("../images/img2_equipo_eduardo.png");
-}
 
 @media screen and (max-width: 768px) {
   .person {
